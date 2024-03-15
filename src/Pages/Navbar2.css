@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+.navbar {
+  background: white;
+  height: 370px;
+  width:100%;
+  z-index: 5;
+  position: fixed;
+  top: 0;
+  background: white;
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1rem;
+  font-family:'Ubuntu';
+
+  box-sizing: border-box;
+  padding: 9.2rem 13rem 17.6rem 13rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('../assets/home-bg-sEv.png');
+  flex-shrink: 0;
+
+
+}
+
+.navbar-logo{
+  color: #fff;
+  justify-self: start;
+  margin-left: -390px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+}
+.navbar-logo .logo-ypzz{
+  
+  margin-left: -390px;
+
+}
+.fa-firstdraft {
+  margin-left: 0.5rem;
+  font-size: 1.6rem;
+}
+
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(7, auto);
+  grid-gap: 5px;
+  list-style: none;
+  text-align: center;
+  width:75vw;
+  justify-content: end;
+  margin-right: 2rem;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+
+.nav-links {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  font-size: 1.6rem;
+  font-family: Poppins, 'Source Sans Pro';
+}
+
+  .navbar-logo {
+    margin-left: -570px;
+    font-size: 3.6rem;
+    font-weight: 400;
+    line-height: 1.3175;
+    color: #ffffff;
+    font-family: Jacques Francois Shadow, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+
+.nav-links:hover {
+  background-color: #fcd302;
+  border-radius: 4px;
+  transition: all 0.2s ease-out;
+}
+
+.fa-bars {
+  margin-top: 13px;
+  margin-right: 15px;
+  color: #ffffff;
+}
+
+.nav-links-mobile {
+  display: none;
+}
+
+.menu-icon {
+  display: none;
+}
+.etc-logo{
+  margin-top: 10px;
+  height: 90px;
+  width: 90px;
+}
+
+@media screen and (max-width: 960px) {
+  .NavbarItems {
+    position: relative;
+  }
+  .etc-logo{
+    margin-left: -35px;
+    margin-top: -36px;
+    height: 90px;
+    width: 90px;
+  }
+
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 28vh;
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+
+  .nav-menu.active {
+    background: transparent;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 4;
+  }
+
+  .nav-links {
+    color: #ffffff;
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+  }
+
+  .nav-links:hover {
+    background-color: #8a181b;
+    border-radius: 0;
+  }
+  .navbar-logo{
+    color: #fff;
+    justify-self: start;
+    margin-left: 90px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+  }
+  .navbar-logo .logo-ypzz{
+    
+    margin-left: -50px;
+    margin-top: 9px;
+  
+  }
+
+  .navbar-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(25%, 50%);
+  }
+
+  .menu-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+
+  .fa-times {
+    margin-top: 13px;
+    margin-right: 15px;
+    color: #ffffff;
+    font-size: 2rem;
+  }
+
+  .nav-links-mobile {
+    display: block;
+    text-align: center;
+    padding-top: 6px;
+    padding-bottom: 9px;
+    padding-left: 4px;
+    padding-right: 4px;
+    margin: 1rem auto;
+    border-radius: 4px;
+    width: 40%;
+    height: 40%;
+    background: #696868;
+    text-decoration: none;
+    color: #fcd302;
+    font-size: 1rem;
+  }
+
+  .nav-links-mobile:hover {
+    background: #fcd302;
+    color: #8a181b;
+    transition: 250ms;
+  }
+
+  .btn {
+    display: none;
+  }
+}
+
+

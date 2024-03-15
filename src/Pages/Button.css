@@ -1,0 +1,43 @@
+:root {
+    --primary: #8a181b;
+  }
+  
+  .btn {
+    padding: 8px 20px;
+    margin-left: -40px;
+    border-radius: 4px;
+    
+    outline: none;
+    border: none;
+    margin-top: -4px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #8a181b;
+    cursor: pointer;
+    background-color: #fff;
+  }
+  
+  .btn:hover {
+    padding: 6px 18px;
+    transition: all 0.3s ease-out;
+    background-color: #fcd302;
+    color: #8a181b;
+    font-weight: bold;
+    border-radius: 4px;
+   
+    transition: all 0.3s ease-out;
+  }
+
+  .btn.active{
+    color: #fcd302;
+    border-radius: 3px;
+    font-weight: lighter;
+    background-color: #8a181b;
+  }
+  .btn.active:hover{
+    font-weight: lighter;
+    background-color: #8a181b;
+    color: #fcd302;
+  }
+
+  
