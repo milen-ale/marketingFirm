@@ -33,22 +33,22 @@
 .navbar-logo{
   color: #fff;
   justify-self: start;
-  margin-left: -390px;
+  margin-left: 20px;
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
 }
 .navbar-logo .logo-ypzz{
   
-  margin-left: -390px;
-
 }
+
 .fa-firstdraft {
   margin-left: 0.5rem;
   font-size: 1.6rem;
 }
 
 .nav-menu {
+  margin-top: -100px;
   display: grid;
   grid-template-columns: repeat(7, auto);
   grid-gap: 5px;
@@ -84,7 +84,11 @@
     flex-shrink: 0;
   }
 
-
+  .navbar-logo img{
+     margin-left: -400px;
+     height: 120px;
+     width: 120px;
+  }
 .nav-links:hover {
   background-color: #fcd302;
   border-radius: 4px;
@@ -104,7 +108,7 @@
 .menu-icon {
   display: none;
 }
-.etc-logo{
+.mk-logo{
   margin-top: 10px;
   height: 90px;
   width: 90px;
@@ -122,6 +126,7 @@
   }
 
   .nav-menu {
+    margin-top: 0px;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -174,7 +179,12 @@
     left: 0;
     transform: translate(25%, 50%);
   }
-
+  .navbar-logo img{
+    margin-left: -60px;
+    margin-top: -11px;
+    height: 60px;
+    width: 60px;
+ }
   .menu-icon {
     display: block;
     position: absolute;

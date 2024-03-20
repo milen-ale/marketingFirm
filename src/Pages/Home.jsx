@@ -1,15 +1,21 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState } from 'react';
 import './Style.css'
+import { Button } from './Button';
+import { Link, useLocation } from 'react-router-dom';
+//import Logo from '../assets/logo.PNG'
+import './Navbar2.css';
+import Dropdown from './Dropdown';
 import Service from './Service';
 import About from './About';
 import Contact from './Contact';
+
+
 function Home() {
   return (
     <div>
       <div className="desktop--BeE">
       <div className="content-Se2">
-            <p className="we-develop-and-create-future-PJN">
+            <p className="we-develop-and-create-future-PJN" id='Home'>
               We develop and
               <br />
               create future.
@@ -25,6 +31,11 @@ function Home() {
         
 
         </div>
+       
+      <Service />
+      <About />
+      <Contact />
+      
         
       </div>
   );

@@ -7,7 +7,7 @@ function About() {
       <>
       <div className="desktop--BeE">
       <div className="about--d6E">
-      <p className="we-are-a-professional-business-agency-kRk">
+      <p className="we-are-a-professional-business-agency-kRk" id='About'>
         We are a professional
         <br />
         business agency

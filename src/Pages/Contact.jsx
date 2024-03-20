@@ -12,7 +12,7 @@ function Contact() {
        <div className='main-contact'>
           <div className='contact-big-card'>
              <div className='contact-tfield'>
-                <p className='feel-free'>Feel free to contact us anytime. We will get back to you as soon us we can.</p> 
+                <p className='feel-free' id='Contact'>Feel free to contact us anytime. We will get back to you as soon us we can.</p> 
                 <input className='textfields' type="text" name="Name" value="Name"/> <br></br>
                 <input className='textfields' type="text" name="Name" value="Email"/> <br></br>
                 <input className='textfields' type="text" name="Name" value="Message"/> <br></br>

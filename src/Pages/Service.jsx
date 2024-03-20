@@ -13,7 +13,7 @@ function Service() {
         <div className="auto-group-czqk-bKC">
           <div className='.service-GXp'>     
             <div className="title-Wh4">
-              <p className="inspiring-you-to-reach-business-goals-4Cn">
+              <p className="inspiring-you-to-reach-business-goals-4Cn" id='Services'>
                 INSPIRING YOU TO REACH
                 <br />
                 BUSINESS $ GOALS

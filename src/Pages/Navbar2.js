@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import { Button } from './Button';
 import { Link, useLocation } from 'react-router-dom';
-import Logo from '../assets/logo.PNG'
+import Logo from '../assets/MKLOGO2.png';
 import './Navbar2.css';
 import Dropdown from './Dropdown';
+import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
 
 function Navbar2() {
   const [click, setClick] = useState(false);
@@ -34,7 +35,8 @@ function Navbar2() {
       <nav className='navbar'>
         <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
           <div>
-          <p className="logo-ypzz">LOGO</p>
+          {/* <p className="logo-ypzz">LOGO</p> */}
+          <img className="mk-logo" src={Logo}/>
           </div>
         </Link>
         <div className='menu-icon' onClick={handleClick}>
@@ -58,32 +60,44 @@ function Navbar2() {
           
           </li>
           <li className='nav-item'>
-            <Link
-              to='/Service'
-              className={`nav-links ${location.pathname === '/About' ? 'active' : ''}`}
-              onClick={closeMobileMenu}
-            >
-              SERVICE
-            </Link>
-          </li>
-          <li className='nav-item'>
-            <Link
-              to='/About'
-              className={`nav-links ${location.pathname === '/News' ? 'active' : ''}`}
-              onClick={closeMobileMenu}
-            >
-              ABOUT
-            </Link>
-          </li>
-          <li className='nav-item'>
-            <Link
-              to='/Contact'
-              className={`nav-links ${location.pathname === '/Vacancy' ? 'active' : ''}`}
-              onClick={closeMobileMenu}
-            >
-              CONTACT
-            </Link>
-          </li>
+  <ScrollLink
+    to='Services'
+    spy={true}
+    smooth={true}
+    offset={-70}
+    duration={500}
+    className={`nav-links ${location.pathname === '/About' ? 'active' : ''}`}
+    onClick={closeMobileMenu}
+  >
+    SERVICE
+  </ScrollLink>
+</li>
+<li className='nav-item'>
+  <ScrollLink
+    to='About'
+    spy={true}
+    smooth={true}
+    offset={-70}
+    duration={500}
+    className={`nav-links ${location.pathname === '/About' ? 'active' : ''}`}
+    onClick={closeMobileMenu}
+  >
+    ABOUT
+  </ScrollLink>
+</li>
+<li className='nav-item'>
+  <ScrollLink
+    to='Contact'
+    spy={true}
+    smooth={true}
+    offset={-70}
+    duration={500}
+    className={`nav-links ${location.pathname === '/About' ? 'active' : ''}`}
+    onClick={closeMobileMenu}
+  >
+    CONTACT
+  </ScrollLink>
+</li>
          
         </ul>
        
