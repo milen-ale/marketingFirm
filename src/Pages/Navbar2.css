@@ -85,9 +85,10 @@
   }
 
   .navbar-logo img{
-     margin-left: -400px;
-     height: 120px;
-     width: 120px;
+     margin-left: -250px;
+     height: 100px;
+     width: 100px;
+     border-radius: 50px;
   }
 .nav-links:hover {
   background-color: #fcd302;

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Button } from './Button';
 import { Link, useLocation } from 'react-router-dom';
-import Logo from '../assets/MKLOGO2.png';
+import Logo from '../assets/MKLOGO5.png';
 import './Navbar2.css';
 import Dropdown from './Dropdown';
 import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';

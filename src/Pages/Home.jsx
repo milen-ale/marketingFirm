@@ -8,6 +8,7 @@ import Dropdown from './Dropdown';
 import Service from './Service';
 import About from './About';
 import Contact from './Contact';
+import Footer from './Footer';
 
 
 function Home() {
@@ -35,7 +36,7 @@ function Home() {
       <Service />
       <About />
       <Contact />
-      
+      <Footer />
         
       </div>
   );

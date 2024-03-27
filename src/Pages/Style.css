@@ -157,7 +157,7 @@ body {
   flex-shrink: 0;
 }
 .desktop--BeE .content-Se2{
-  margin-left: -550px;
+  margin-left: -250px;
 }
 .desktop--BeE .home-iu4 .content-Se2 .we-develop-and-create-future-PJN {
   max-width: 71rem;
@@ -239,7 +239,6 @@ body {
   box-sizing: border-box;
   padding: 2.6rem 3.5rem 4.6rem 7.6rem;
   width: 100%;
-
   overflow: hidden;
   position: relative;
   align-items: center;
@@ -264,11 +263,13 @@ body {
   display: flex;
   align-items: flex-end;
   flex-shrink: 0;
+  
 }
 .desktop--BeE .about--d6E .auto-group-pbbu-eGE .frame-28-ntE {
   margin: 0rem 18.1rem 0.2rem 0rem;
   width: 46.2rem;
   flex-shrink: 0;
+  margin-left: 80px;
 }
 .desktop--BeE .about--d6E .auto-group-pbbu-eGE .frame-28-ntE .rectangle-2-vjY {
   margin-bottom: 4.2rem;
@@ -276,8 +277,9 @@ body {
   cursor: pointer;
 }
 .desktop--BeE .about--d6E .auto-group-pbbu-eGE .frame-28-ntE .rectangle-2-vjY .rectangle-2-fx2 {
-  width: 100%;
-  height: 31.6rem;
+  width: 85%;
+  height: 30.6rem;
+  margin-left: 50px;
   background-color: #d9d9d9;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -304,7 +306,7 @@ body {
   font-family: Playfair Display, 'Source Sans Pro';
 }
 .desktop--BeE .about--d6E .auto-group-pbbu-eGE .frame-28-ntE .auto-group-qx34-bqg .unique-approach-to-digital-marketing-harnesses-the-power-of-500-digital-marketing-experts-together-with-our-in-house-technology-suite-to-power-results-that-matter-most-to-you-like-expanding-market-share-growing-revenue-and-creating-jobs-9sC .unique-approach-to-digital-marketing-harnesses-the-power-of-500-digital-marketing-experts-together-with-our-in-house-technology-suite-to-power-results-that-matter-most-to-you-like-expanding-market-share-growing-revenue-and-creating-jobs-9sC-sub-0 {
-  font-size: 2.4rem;
+  font-size: 1.8rem;
   font-weight: 400;
   line-height: 1.5;
   text-transform: lowercase;
@@ -316,6 +318,8 @@ body {
 .desktop--BeE .about--d6E .auto-group-pbbu-eGE .frame-28-ntE .auto-group-qx34-bqg .frame-14-VTC {
   width: 30.4rem;
   height: 5rem;
+  margin-top: -130px;
+  margin-left: 70px;
   position: absolute;
   left: 0;
   top: 39.4rem;
@@ -338,6 +342,7 @@ body {
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
+  margin-left: -280px;
 }
 .desktop--BeE .about--d6E .auto-group-pbbu-eGE .auto-group-h8fp-ZT4 .who-we-are-tkE {
   margin: 0rem 0rem 1rem 12.1rem;
@@ -370,7 +375,7 @@ body {
   font-family: Playfair Display, 'Source Sans Pro';
 }
 .desktop--BeE .about--d6E .auto-group-pbbu-eGE .auto-group-h8fp-ZT4 .auto-group-buqu-cRL .unique-approach-to-digital-marketing-harnesses-the-power-of-500-digital-marketing-experts-together-with-our-in-house-technology-suite-to-power-results-that-matter-most-to-you-like-expanding-market-share-growing-revenue-and-creating-jobs-xk6 .unique-approach-to-digital-marketing-harnesses-the-power-of-500-digital-marketing-experts-together-with-our-in-house-technology-suite-to-power-results-that-matter-most-to-you-like-expanding-market-share-growing-revenue-and-creating-jobs-xk6-sub-0 {
-  font-size: 2.4rem;
+  font-size: 1.8rem;
   font-weight: 400;
   line-height: 1.5;
   text-transform: lowercase;
@@ -380,10 +385,10 @@ body {
 .desktop--BeE .about--d6E .auto-group-pbbu-eGE .auto-group-h8fp-ZT4 .auto-group-buqu-cRL .unique-approach-to-digital-marketing-harnesses-the-power-of-500-digital-marketing-experts-together-with-our-in-house-technology-suite-to-power-results-that-matter-most-to-you-like-expanding-market-share-growing-revenue-and-creating-jobs-xk6 .unique-approach-to-digital-marketing-harnesses-the-power-of-500-digital-marketing-experts-together-with-our-in-house-technology-suite-to-power-results-that-matter-most-to-you-like-expanding-market-share-growing-revenue-and-creating-jobs-xk6-sub-1 {
 }
 .desktop--BeE .about--d6E .auto-group-pbbu-eGE .auto-group-h8fp-ZT4 .auto-group-buqu-cRL .rectangle-3-zKQ {
-  width: 50.6rem;
-  height: 40.6rem;
+  width: 40.6rem;
+  height: 30.6rem;
   cursor: pointer;
-  margin-left: 95px;
+  margin-left: 195px;
   position: absolute;
   left: 0;
   top: 29rem;
@@ -407,11 +412,12 @@ body {
   flex-shrink: 0;
 }
 .desktop--BeE .service-GXp .auto-group-czqk-bKC {
-  margin: 0rem 15rem 3.9rem 0rem;
+  margin: 0rem 15rem 3.9rem;
   width: 108.4rem;
   height: 48.2rem;
   position: relative;
   flex-shrink: 0;
+  
 }
 .desktop--BeE .service-GXp .auto-group-czqk-bKC .title-Wh4 {
   width: 88.6rem;
@@ -422,6 +428,7 @@ body {
 }
 .desktop--BeE .auto-group-czqk-bKC{
   background-color: white;
+  padding-left: 50px;
   width: 100%;
 
 }
@@ -912,7 +919,7 @@ body {
 .main-contact .contact-big-card{
   border-radius:25px;
   display: flex;
-  
+  margin-left: 100px;
   background-color: black;
   justify-content: center;
   column-gap: 50px;
@@ -969,8 +976,8 @@ body {
 .main-contact .contact-big-card .contact-info .icon-and-text-container .icon-and-text{
   display: flex;
   font-family: Poppins, 'Source Sans Pro';
-  font-size: 2rem;
-  margin-left:15px ;
+  font-size: 1.2rem;
+  margin-left:5px ;
   column-gap: 15px;
   flex-direction: row;
 }
@@ -983,7 +990,101 @@ body {
   height: 30px;
   width: 30px;
 }
+.Footer-container{
+  display: flex;
+  justify-content: center;
+}
+.Footer-container{
+  width: 80%;
+  margin-left: 150px;
+  background-color: #ffffff;
+  height: fit-content;
+}
+.Footer-container .Follow-us{
+  font-family: Poppins, 'Source Sans Pro';
+  margin-left: 120px;
+  text-align: left;
+  margin-top: 60px;
+  color: #000000;
+}
+.Footer-container .Follow-us .follow-us-text{
+  margin-left:20px;
+  font-family: Poppins, 'Source Sans Pro';
 
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+.Footer-container .Follow-us .social-icons{
+  display: flex;
+  margin-bottom: 30px;
+}
+.Footer-container .Follow-us .social-icons .facebook{
+  font-size: 20px;
+  margin-left: 15px;
+}
+.Footer-container .Follow-us .social-icons .instagram{
+  font-size: 20px;
+  margin-left: 15px;
+}
+.Footer-container .Follow-us .social-icons .twitter{
+  font-size: 20px;
+  margin-left: 15px;
+}
+.Footer-container .Information{
+  font-family: p;
+  font-family: Poppins, 'Source Sans Pro';
+
+  margin-top: 60px;
+  margin-left: 200px;
+}
+.Footer-container .Information .info-text{
+    font-family: Poppins, 'Source Sans Pro';
+
+    text-align: left;
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+.Footer-container .Information p{
+  font-family: Poppins, 'Source Sans Pro';
+  font-size:1.5rem;
+  text-align: left;
+}
+
+.Footer-container .Subscribe{
+  font-family: p;
+  font-family: Poppins, 'Source Sans Pro';
+ width: 33%;
+ text-align: left;
+  margin-top: 60px;
+  margin-left: 200px;
+}
+
+
+.Footer-container .Subscribe .subscribe-text{
+  
+  text-align: left;
+  font-family: Poppins, 'Source Sans Pro';
+
+font-size: 1.5rem;
+margin-bottom: 5px;
+}
+.Footer-container .Subscribe p{
+  font-family: Poppins, 'Source Sans Pro';
+  text-align: left;
+  font-size:1.5rem;
+}
+.Footer-container .Subscribe .subscribe-textfield{
+  background-color: #d9d9d9;
+  padding-top: 8px;
+  font-family: Poppins, 'Source Sans Pro';
+  text-align: left;
+  
+  font-size:1.5rem;
+  margin-bottom: 20px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 100px;
+}
 
 @media screen and (max-width: 768px) {
   .desktop--BeE .content-Se2{
@@ -1030,6 +1131,9 @@ body {
     border: solid 0.3rem #fdfafa;
     box-sizing: border-box;
     border-radius: 2rem
+  }
+  .desktop--BeE .auto-group-czqk-bKC{
+    padding-left: 0px;
   }
   .desktop--BeE .auto-group-czqk-bKC .Services{
     display: flex;
@@ -1300,4 +1404,47 @@ body {
   height: 30px;
   width: 30px;
 }
+.Footer-container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #ffffff;
+  height: fit-content;
+}
+.Footer-container .Follow-us{
+  font-family: Poppins, 'Source Sans Pro';
+  margin-left: -120px;
+  text-align: left;
+  margin-top: 30px;
+  color: #000000;
+}
+
+.Footer-container .Information{
+  font-family: p;
+  font-family: Poppins, 'Source Sans Pro';
+
+  margin-top: 30px;
+  margin-left: -100px;
+}
+.Footer-container .Subscribe{
+  font-family: p;
+  font-family: Poppins, 'Source Sans Pro';
+  width: 80%;
+ text-align: left;
+  margin-top: 30px;
+  margin-left: -100px;
+}
+.Footer-container .Subscribe .subscribe-textfield{
+  background-color: #d9d9d9;
+  padding-top: 6px;
+  font-family: Poppins, 'Source Sans Pro';
+  text-align: left;
+  
+  font-size:1.3rem;
+  margin-bottom: 20px;
+  padding-bottom: 6px;
+  padding-left: 15px;
+  padding-right: 75px;
+}
+
 }
